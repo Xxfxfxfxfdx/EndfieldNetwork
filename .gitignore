@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本机个性化配置（首次运行会自动生成默认文件，不要提交自己的设置）
+config.json
+
+# 由 tools/autostart.py 自动生成的托盘图标
+assets/network_hud.ico
+
+# 临时文件
+out/_*
+*.log

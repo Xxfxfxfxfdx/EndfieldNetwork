@@ -1,0 +1,6 @@
+# 这些文件带 GBK 编码与 CRLF 行尾，禁止任何行尾/编码转换
+*.bat -text
+*.pyw -text
+
+*.png binary
+*.ico binary

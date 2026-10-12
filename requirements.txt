@@ -1,0 +1,12 @@
+# Network HUD dependencies (Windows, Python 3.9+)
+#
+#   python -m pip install -r requirements.txt
+# or just run:  install.bat
+#
+# Notes:
+#   Pillow   - renders every animation frame and the tray icon
+#   numpy    - anti-aliased pill body / ripple layers
+#   pywin32  - layered window (UpdateLayeredWindow), tray icon, network change events
+Pillow>=9.2.0
+numpy>=1.22.0
+pywin32>=305; sys_platform == "win32"
